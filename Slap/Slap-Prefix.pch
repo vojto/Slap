@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Slap' target in the 'Slap' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
