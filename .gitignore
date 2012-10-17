@@ -1,5 +1,17 @@
-build
-.DS_Store
+# Mac OS X
+*.DS_Store
+
+# Xcode
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
 *.xcuserstate
-xcuserdata
-Pods/
+project.xcworkspace/
+xcuserdata/
+
+# Generated files
+*.o
+
+# Backup files
+*~.nib%  
