@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		99198ADD162F14CC00331069 /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 99198ADC162F14CC00331069 /* beep.mp3 */; };
+		99198AE0162F188B00331069 /* tabs.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 99198ADF162F175100331069 /* tabs.scpt */; };
 		99954870162E8C6300246C30 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9995486F162E8C6300246C30 /* Cocoa.framework */; };
 		9995487A162E8C6300246C30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99954878162E8C6300246C30 /* InfoPlist.strings */; };
 		9995487C162E8C6300246C30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9995487B162E8C6300246C30 /* main.m */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		99198ADC162F14CC00331069 /* beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep.mp3; sourceTree = "<group>"; };
+		99198ADF162F175100331069 /* tabs.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = tabs.scpt; sourceTree = "<group>"; };
 		9995486B162E8C6300246C30 /* Slap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9995486F162E8C6300246C30 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		99954872162E8C6300246C30 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -96,6 +100,8 @@
 				99954884162E8C6300246C30 /* MainMenu.xib */,
 				9995488F162E8F3600246C30 /* EyeTemplate.png */,
 				99954891162E913900246C30 /* EyeTemplate@2x.png */,
+				99198ADC162F14CC00331069 /* beep.mp3 */,
+				99198ADF162F175100331069 /* tabs.scpt */,
 				99954876162E8C6300246C30 /* Supporting Files */,
 				99954893162E91CB00246C30 /* SLPreferencesController.h */,
 				99954894162E91CB00246C30 /* SLPreferencesController.m */,
@@ -174,6 +180,8 @@
 				99954890162E8F3600246C30 /* EyeTemplate.png in Resources */,
 				99954892162E913900246C30 /* EyeTemplate@2x.png in Resources */,
 				99954897162E91CC00246C30 /* SLPreferencesController.xib in Resources */,
+				99198AE0162F188B00331069 /* tabs.scpt in Resources */,
+				99198ADD162F14CC00331069 /* beep.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +324,7 @@
 				9995488B162E8C6300246C30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

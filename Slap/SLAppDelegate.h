@@ -14,7 +14,24 @@
 @property (weak) IBOutlet NSMenu *menu;
 @property (strong) NSStatusItem *statusItem;
 @property (strong) NSImage *statusImage;
+@property (strong) NSSound *sound;
+@property (strong) NSAppleScript *tabsScript;
+
+@property (strong) NSSet *urls;
 
 @property (strong) SLPreferencesController *preferencesController;
+
+- (void)setupUI;
+- (void)setupScript;
+
+- (void)startWatching;
+- (void)nextWatch;
+
+- (void)didSavePreferences:(NSNotification *)notification;
+- (void)reloadURLs;
+
+- (void)startBeep;
+- (void)nextBeep;
+- (void)stopBeep;
 
 @end

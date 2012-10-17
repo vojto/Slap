@@ -30,5 +30,10 @@
     
     // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
 }
+- (IBAction)okAction:(id)sender {
+    [self close];
+    NSNotification *notification = [NSNotification notificationWithName:@"SLDidSavePreferences" object:nil];
+    [[NSNotificationCenter defaultCenter] postNotification:notification];
+}
 
 @end
