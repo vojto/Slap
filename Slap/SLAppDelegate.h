@@ -7,9 +7,14 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "SLPreferencesController.h"
 
 @interface SLAppDelegate : NSObject <NSApplicationDelegate>
 
-@property (assign) IBOutlet NSWindow *window;
+@property (weak) IBOutlet NSMenu *menu;
+@property (strong) NSStatusItem *statusItem;
+@property (strong) NSImage *statusImage;
+
+@property (strong) SLPreferencesController *preferencesController;
 
 @end

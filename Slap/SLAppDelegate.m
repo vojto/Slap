@@ -10,9 +10,26 @@
 
 @implementation SLAppDelegate
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
-{
-    // Insert code here to initialize your application
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+    NSStatusBar *statusBar = [NSStatusBar systemStatusBar];
+	self.statusItem = [statusBar statusItemWithLength:NSVariableStatusItemLength];
+    
+    self.statusImage = [NSImage imageNamed:@"EyeTemplate"];
+	[self.statusItem setHighlightMode:YES];
+	[self.statusItem setMenu:self.menu];
+    [self.statusItem setImage:self.statusImage];
 }
+
+- (IBAction)preferencesAction:(id)sender {
+    if (!self.preferencesController) {
+        self.preferencesController = [[SLPreferencesController alloc] initWithWindowNibName:@"SLPreferencesController"];
+    }
+    [self.preferencesController showWindow:self];
+}
+
+- (IBAction)quitAction:(id)sender {
+    [NSApp terminate:nil];
+}
+
 
 @end

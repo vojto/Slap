@@ -13,6 +13,10 @@
 		99954880162E8C6300246C30 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9995487E162E8C6300246C30 /* Credits.rtf */; };
 		99954883162E8C6300246C30 /* SLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99954882162E8C6300246C30 /* SLAppDelegate.m */; };
 		99954886162E8C6300246C30 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99954884162E8C6300246C30 /* MainMenu.xib */; };
+		99954890162E8F3600246C30 /* EyeTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 9995488F162E8F3600246C30 /* EyeTemplate.png */; };
+		99954892162E913900246C30 /* EyeTemplate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99954891162E913900246C30 /* EyeTemplate@2x.png */; };
+		99954896162E91CC00246C30 /* SLPreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99954894162E91CB00246C30 /* SLPreferencesController.m */; };
+		99954897162E91CC00246C30 /* SLPreferencesController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99954895162E91CC00246C30 /* SLPreferencesController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,11 @@
 		99954881162E8C6300246C30 /* SLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLAppDelegate.h; sourceTree = "<group>"; };
 		99954882162E8C6300246C30 /* SLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLAppDelegate.m; sourceTree = "<group>"; };
 		99954885162E8C6300246C30 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9995488F162E8F3600246C30 /* EyeTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EyeTemplate.png; sourceTree = "<group>"; };
+		99954891162E913900246C30 /* EyeTemplate@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EyeTemplate@2x.png"; sourceTree = "<group>"; };
+		99954893162E91CB00246C30 /* SLPreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLPreferencesController.h; sourceTree = "<group>"; };
+		99954894162E91CB00246C30 /* SLPreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLPreferencesController.m; sourceTree = "<group>"; };
+		99954895162E91CC00246C30 /* SLPreferencesController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLPreferencesController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +94,12 @@
 				99954881162E8C6300246C30 /* SLAppDelegate.h */,
 				99954882162E8C6300246C30 /* SLAppDelegate.m */,
 				99954884162E8C6300246C30 /* MainMenu.xib */,
+				9995488F162E8F3600246C30 /* EyeTemplate.png */,
+				99954891162E913900246C30 /* EyeTemplate@2x.png */,
 				99954876162E8C6300246C30 /* Supporting Files */,
+				99954893162E91CB00246C30 /* SLPreferencesController.h */,
+				99954894162E91CB00246C30 /* SLPreferencesController.m */,
+				99954895162E91CC00246C30 /* SLPreferencesController.xib */,
 			);
 			path = Slap;
 			sourceTree = "<group>";
@@ -157,6 +171,9 @@
 				9995487A162E8C6300246C30 /* InfoPlist.strings in Resources */,
 				99954880162E8C6300246C30 /* Credits.rtf in Resources */,
 				99954886162E8C6300246C30 /* MainMenu.xib in Resources */,
+				99954890162E8F3600246C30 /* EyeTemplate.png in Resources */,
+				99954892162E913900246C30 /* EyeTemplate@2x.png in Resources */,
+				99954897162E91CC00246C30 /* SLPreferencesController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +186,7 @@
 			files = (
 				9995487C162E8C6300246C30 /* main.m in Sources */,
 				99954883162E8C6300246C30 /* SLAppDelegate.m in Sources */,
+				99954896162E91CC00246C30 /* SLPreferencesController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
