@@ -45,6 +45,7 @@
         self.preferencesController = [[SLPreferencesController alloc] initWithWindowNibName:@"SLPreferencesController"];
     }
     [self.preferencesController showWindow:self];
+    [NSApp activateIgnoringOtherApps:YES];
 }
 
 - (IBAction)quitAction:(id)sender {
