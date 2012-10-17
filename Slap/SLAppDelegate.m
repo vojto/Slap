@@ -103,7 +103,6 @@
         [urlSet addObject:[url objectForKey:@"url"]];
     }
     self.urls = urlSet;
-    NSLog(@"URLs: %@", self.urls);
 }
 
 #pragma mark - Beeping
