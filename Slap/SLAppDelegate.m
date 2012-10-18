@@ -12,6 +12,14 @@
 
 #pragma mark - Lifecycle
 
+- (id)init {
+    if ((self = [super init])) {
+        self.isBeeping = NO;
+    }
+    
+    return self;
+}
+
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didSavePreferences:) name:@"SLDidSavePreferences" object:nil];
     [self reloadURLs];
@@ -108,6 +116,8 @@
 #pragma mark - Beeping
 
 - (void)startBeep {
+    if (self.isBeeping) return;
+    self.isBeeping = YES;
     [self nextBeep];
 }
 
@@ -117,6 +127,7 @@
 }
 
 - (void)stopBeep {
+    self.isBeeping = NO;
     [NSObject cancelPreviousPerformRequestsWithTarget:self selector:@selector(nextBeep) object:nil];
 }
 

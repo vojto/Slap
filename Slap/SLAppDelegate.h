@@ -14,7 +14,10 @@
 @property (weak) IBOutlet NSMenu *menu;
 @property (strong) NSStatusItem *statusItem;
 @property (strong) NSImage *statusImage;
+
 @property (strong) NSSound *sound;
+@property (assign) BOOL isBeeping;
+
 @property (strong) NSAppleScript *tabsScript;
 
 @property (strong) NSSet *urls;
